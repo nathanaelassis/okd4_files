@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     okd4-services.okd.local. admin.okd.local. (
+@       IN      SOA     okd4-services.icarotech.coml. admin.icarotech.com. (
                   6     ; Serial
              604800     ; Refresh
               86400     ; Retry
@@ -8,15 +8,15 @@ $TTL    604800
 )
 
 ; name servers - NS records
-    IN      NS      okd4-services.okd.local.
+    IN      NS      okd4-services.icarotech.com.
 
 ; name servers - PTR records
-210    IN    PTR    okd4-services.okd.local.
+210    IN    PTR    okd4-services.icarotech.com.
 
 ; OpenShift Container Platform Cluster - PTR records
-11    IN    PTR    okd4-bootstrap.lab.okd.local.
-231    IN    PTR    okd4-control-plane-1.lab.okd.local.
-232    IN    PTR    okd4-control-plane-2.lab.okd.local.
-165    IN    PTR    okd4-compute-1.lab.okd.local.
-5    IN    PTR    api.lab.okd.local.
-5    IN    PTR    api-int.lab.okd.local.
+11    IN    PTR    okd4-bootstrap.lab.icarotech.com.
+231    IN    PTR    okd4-control-plane-1.lab.icarotech.com.
+232    IN    PTR    okd4-control-plane-2.lab.icarotech.com.
+165    IN    PTR    okd4-compute-1.lab.icarotech.com.
+5    IN    PTR    api.lab.icarotech.com.
+5    IN    PTR    api-int.lab.icarotech.com.
